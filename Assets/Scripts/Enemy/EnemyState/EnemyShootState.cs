@@ -2,17 +2,38 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyShootState : MonoBehaviour
+[CreateAssetMenu]
+public class EnemyShootState : State
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Init()
     {
-        
+        Shoot();
+    }
+    public override void Run()
+    {
+        if (IsFinished)
+        {
+            return;
+        }        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Shoot()
     {
-        
+        GameObject bullet = ObjectPool.SharedInstance.GetPooledObject();
+
+        if (bullet != null)
+        {
+            bullet.SetActive(true);
+            bullet.GetComponent<Rigidbody2D>().isKinematic = false;
+            bullet.GetComponent<SnowBall>().player = null;
+            bullet.transform.position = unit._spanwPoint.transform.position;
+            bullet.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 250f);
+        }
+    }
+
+    public override void Stop()
+    {
+        IsFinished = true;
+        unit.SetCharackterState("Idle");
     }
 }

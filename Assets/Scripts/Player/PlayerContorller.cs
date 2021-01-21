@@ -40,8 +40,9 @@ public class PlayerContorller : MonoBehaviour
         {
             bullet.SetActive(true);
             bullet.GetComponent<Rigidbody2D>().isKinematic = false;
+            bullet.GetComponent<SnowBall>().player = gameObject.GetComponent<Player>();
             bullet.transform.position = _spanwPoint.transform.position;
-            bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * 500f);
+            bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * (force * 100));
         }
     }
 

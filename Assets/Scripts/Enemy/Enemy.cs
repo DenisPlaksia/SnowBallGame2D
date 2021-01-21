@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using Spine.Unity;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IBulletCollision
 {
     [SerializeField] private State StartState;
     [SerializeField] private State EnemyShootingState;
     [SerializeField] private State WalkState;
     [SerializeField] private State StayState;
+    [SerializeField] private State EnemyDathState;
 
     [Header("Actual state")]
     [SerializeField] private State currentStatePattern;
@@ -18,6 +19,8 @@ public class Enemy : MonoBehaviour
     public AnimationReferenceAsset idle, run;
     public string currentState;
     private string currentAnimation;
+    public int score;
+    public GameObject _spanwPoint;
 
     private void Start()
     {
@@ -36,7 +39,7 @@ public class Enemy : MonoBehaviour
     public void SetState(State state)
     {
 
-        currentStatePattern = state;
+        currentStatePattern = Instantiate(state);
         currentStatePattern.unit = this;
         currentStatePattern.Init();
     }
@@ -69,8 +72,15 @@ public class Enemy : MonoBehaviour
         SetState(StayState);
         yield return new WaitForSeconds(2f);
         SetState(WalkState);
-
         yield return new WaitForSeconds(4f);
+        SetState(EnemyShootingState);
+        
         StartCoroutine(TimeToStop());
+    }
+
+    public void BulletCollision()
+    {
+        StopAllCoroutines();
+        SetState(EnemyDathState);
     }
 }
