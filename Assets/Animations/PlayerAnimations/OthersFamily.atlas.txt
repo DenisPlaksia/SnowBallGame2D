@@ -1,0 +1,3173 @@
+
+OthersFamily.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CatFamily/CatDaughter/HalfCloseEyes
+  rotate: false
+  xy: 856, 921
+  size: 146, 79
+  orig: 146, 79
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/EyesOpen
+  rotate: true
+  xy: 1886, 363
+  size: 152, 63
+  orig: 152, 63
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/Head
+  rotate: false
+  xy: 1371, 363
+  size: 505, 414
+  orig: 505, 414
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/Head
+  rotate: false
+  xy: 856, 497
+  size: 505, 414
+  orig: 505, 414
+  offset: 0, 0
+  index: -1
+Empty
+  rotate: false
+  xy: 1343, 14
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/Head
+  rotate: false
+  xy: 1539, 1624
+  size: 499, 414
+  orig: 499, 414
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/Body
+  rotate: false
+  xy: 1343, 25
+  size: 366, 328
+  orig: 366, 328
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/Hair
+  rotate: false
+  xy: 1719, 12
+  size: 238, 341
+  orig: 238, 341
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/Head
+  rotate: false
+  xy: 1539, 1201
+  size: 499, 413
+  orig: 499, 413
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/Tail
+  rotate: true
+  xy: 791, 1010
+  size: 115, 209
+  orig: 115, 209
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Head
+  rotate: false
+  xy: 1013, 1193
+  size: 506, 418
+  orig: 506, 418
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Head
+  rotate: false
+  xy: 1013, 1193
+  size: 506, 418
+  orig: 506, 418
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Head
+  rotate: true
+  xy: 10, 455
+  size: 523, 414
+  orig: 523, 414
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Head
+  rotate: true
+  xy: 434, 460
+  size: 518, 412
+  orig: 518, 412
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/EyesOpen
+  rotate: true
+  xy: 1967, 236
+  size: 127, 71
+  orig: 127, 71
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Head
+  rotate: false
+  xy: 1013, 1621
+  size: 516, 417
+  orig: 516, 417
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/EyebrowR
+  rotate: true
+  xy: 518, 989
+  size: 13, 38
+  orig: 13, 38
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/Head
+  rotate: false
+  xy: 10, 988
+  size: 498, 520
+  orig: 498, 520
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/Head
+  rotate: false
+  xy: 10, 1518
+  size: 508, 520
+  orig: 508, 520
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/Head
+  rotate: false
+  xy: 528, 1543
+  size: 475, 495
+  orig: 475, 495
+  offset: 0, 0
+  index: -1
+Mouth/SurpriseOpenMouthSmall
+  rotate: false
+  xy: 1343, 469
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/HalfCloseEyes
+  rotate: true
+  xy: 1959, 373
+  size: 142, 79
+  orig: 142, 79
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/Hand
+  rotate: true
+  xy: 1371, 852
+  size: 59, 188
+  orig: 59, 188
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/Hand
+  rotate: false
+  xy: 1967, 35
+  size: 61, 191
+  orig: 61, 191
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/Head
+  rotate: false
+  xy: 528, 1135
+  size: 475, 398
+  orig: 475, 398
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/Head
+  rotate: true
+  xy: 494, 11
+  size: 439, 395
+  orig: 439, 395
+  offset: 0, 0
+  index: -1
+Pupil
+  rotate: false
+  xy: 856, 464
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/Head
+  rotate: false
+  xy: 10, 10
+  size: 474, 435
+  orig: 474, 435
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/Tail
+  rotate: true
+  xy: 518, 1012
+  size: 113, 263
+  orig: 113, 263
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Tail
+  rotate: true
+  xy: 518, 1012
+  size: 113, 263
+  orig: 113, 263
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/Head
+  rotate: true
+  xy: 899, 14
+  size: 473, 434
+  orig: 473, 434
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/Head
+  rotate: false
+  xy: 1569, 787
+  size: 469, 404
+  orig: 469, 404
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 1371, 795
+  size: 180, 47
+  orig: 180, 47
+  offset: 0, 0
+  index: -1
+sofa
+  rotate: false
+  xy: 1013, 921
+  size: 546, 262
+  orig: 546, 262
+  offset: 0, 0
+  index: -1
+svistok
+  rotate: true
+  xy: 1886, 525
+  size: 252, 138
+  orig: 252, 138
+  offset: 0, 0
+  index: -1
+
+OthersFamily2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Book1
+  rotate: true
+  xy: 382, 195
+  size: 147, 126
+  orig: 147, 126
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/Head
+  rotate: false
+  xy: 521, 1213
+  size: 499, 403
+  orig: 499, 403
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/Body
+  rotate: true
+  xy: 999, 467
+  size: 362, 325
+  orig: 362, 325
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/Body
+  rotate: true
+  xy: 1665, 10
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/Head
+  rotate: false
+  xy: 10, 352
+  size: 498, 414
+  orig: 498, 414
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Head
+  rotate: false
+  xy: 1505, 1195
+  size: 461, 415
+  orig: 461, 415
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/Body
+  rotate: true
+  xy: 1292, 10
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/EyesOpen
+  rotate: true
+  xy: 1976, 1231
+  size: 109, 62
+  orig: 109, 62
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/Eyebrow
+  rotate: true
+  xy: 487, 89
+  size: 46, 19
+  orig: 46, 19
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/Head
+  rotate: false
+  xy: 1541, 1620
+  size: 470, 418
+  orig: 470, 418
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/Body
+  rotate: false
+  xy: 10, 17
+  size: 362, 325
+  orig: 362, 325
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/Head
+  rotate: false
+  xy: 1032, 1626
+  size: 499, 412
+  orig: 499, 412
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/Head
+  rotate: false
+  xy: 10, 776
+  size: 499, 413
+  orig: 499, 413
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/Head
+  rotate: false
+  xy: 10, 1623
+  size: 501, 415
+  orig: 501, 415
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Body
+  rotate: true
+  xy: 1003, 839
+  size: 364, 361
+  orig: 364, 361
+  offset: 0, 0
+  index: -1
+HippoFamily/George/HandL
+  rotate: true
+  xy: 1843, 812
+  size: 100, 195
+  orig: 100, 195
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/HandL
+  rotate: true
+  xy: 1843, 812
+  size: 100, 195
+  orig: 100, 195
+  offset: 0, 0
+  index: -1
+HippoFamily/George/HandR
+  rotate: true
+  xy: 1843, 702
+  size: 100, 195
+  orig: 100, 195
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Head
+  rotate: false
+  xy: 10, 1199
+  size: 500, 414
+  orig: 500, 414
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/HalfCloseEyes
+  rotate: true
+  xy: 1966, 927
+  size: 124, 72
+  orig: 124, 72
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Head
+  rotate: false
+  xy: 521, 1626
+  size: 501, 412
+  orig: 501, 412
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/HalfCloseEyes
+  rotate: true
+  xy: 1966, 1061
+  size: 124, 72
+  orig: 124, 72
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/EyebrowL
+  rotate: false
+  xy: 487, 145
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/Head
+  rotate: true
+  xy: 1030, 1214
+  size: 402, 465
+  orig: 402, 465
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/Head
+  rotate: true
+  xy: 1334, 378
+  size: 402, 459
+  orig: 402, 459
+  offset: 0, 0
+  index: -1
+Mouth/SadCloseMouthMiddle
+  rotate: false
+  xy: 1803, 391
+  size: 81, 22
+  orig: 81, 22
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouth
+  rotate: false
+  xy: 1803, 727
+  size: 22, 53
+  orig: 22, 53
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouthMiddle
+  rotate: true
+  xy: 1292, 389
+  size: 68, 31
+  orig: 68, 31
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouthSmall
+  rotate: true
+  xy: 1976, 1201
+  size: 20, 53
+  orig: 20, 53
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/Head
+  rotate: false
+  xy: 519, 467
+  size: 470, 362
+  orig: 470, 362
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/Head
+  rotate: true
+  xy: 923, 20
+  size: 437, 359
+  orig: 437, 359
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/Head
+  rotate: true
+  xy: 518, 10
+  size: 447, 395
+  orig: 447, 395
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/Head
+  rotate: false
+  xy: 520, 839
+  size: 473, 364
+  orig: 473, 364
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/Tail
+  rotate: false
+  xy: 382, 17
+  size: 95, 168
+  orig: 95, 168
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/EyesOpen
+  rotate: true
+  xy: 1976, 1485
+  size: 125, 62
+  orig: 125, 62
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Head
+  rotate: false
+  xy: 1374, 790
+  size: 459, 395
+  orig: 459, 395
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/EyesOpen
+  rotate: true
+  xy: 1976, 1350
+  size: 125, 62
+  orig: 125, 62
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/Tail
+  rotate: false
+  xy: 1843, 922
+  size: 113, 263
+  orig: 113, 263
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/Tail
+  rotate: false
+  xy: 1843, 922
+  size: 113, 263
+  orig: 113, 263
+  offset: 0, 0
+  index: -1
+map
+  rotate: true
+  xy: 1803, 423
+  size: 269, 231
+  orig: 269, 231
+  offset: 0, 0
+  index: -1
+
+OthersFamily3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 717, 342
+  size: 149, 63
+  orig: 149, 63
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/EyesClose
+  rotate: false
+  xy: 1175, 502
+  size: 137, 102
+  orig: 137, 102
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/EyesClose
+  rotate: true
+  xy: 10, 342
+  size: 149, 87
+  orig: 149, 87
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/HalfCloseEyes
+  rotate: true
+  xy: 790, 342
+  size: 149, 63
+  orig: 149, 63
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/Head
+  rotate: false
+  xy: 478, 1663
+  size: 450, 375
+  orig: 450, 375
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/HalfCloseEyes
+  rotate: true
+  xy: 1766, 711
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Head
+  rotate: false
+  xy: 938, 1663
+  size: 450, 375
+  orig: 450, 375
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/EyesClose
+  rotate: true
+  xy: 107, 342
+  size: 149, 87
+  orig: 149, 87
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/EyesOpen
+  rotate: true
+  xy: 1009, 342
+  size: 149, 63
+  orig: 149, 63
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/HalfCloseEyes
+  rotate: true
+  xy: 863, 342
+  size: 149, 63
+  orig: 149, 63
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/Head
+  rotate: false
+  xy: 1398, 1663
+  size: 450, 375
+  orig: 450, 375
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/Head
+  rotate: false
+  xy: 478, 1278
+  size: 450, 375
+  orig: 450, 375
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/EyesOpen
+  rotate: false
+  xy: 1501, 10
+  size: 109, 82
+  orig: 109, 82
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Wrinkles
+  rotate: true
+  xy: 421, 973
+  size: 105, 36
+  orig: 105, 36
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/EyesClose
+  rotate: false
+  xy: 1823, 711
+  size: 125, 101
+  orig: 125, 101
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/EyesOpen
+  rotate: false
+  xy: 1382, 10
+  size: 109, 82
+  orig: 109, 82
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/Foot
+  rotate: true
+  xy: 882, 896
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/Foot
+  rotate: true
+  xy: 882, 1020
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/EyesClose
+  rotate: true
+  xy: 832, 607
+  size: 133, 96
+  orig: 133, 96
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/Body
+  rotate: false
+  xy: 10, 10
+  size: 350, 322
+  orig: 350, 322
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/EyesClose
+  rotate: false
+  xy: 832, 501
+  size: 125, 96
+  orig: 125, 96
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/Tail
+  rotate: true
+  xy: 1830, 1404
+  size: 112, 206
+  orig: 112, 206
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/Tail
+  rotate: true
+  xy: 1830, 1282
+  size: 112, 206
+  orig: 112, 206
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/Body
+  rotate: false
+  xy: 733, 13
+  size: 349, 319
+  orig: 349, 319
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/HalfCloseEyes
+  rotate: false
+  xy: 1378, 102
+  size: 142, 74
+  orig: 142, 74
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Body
+  rotate: false
+  xy: 468, 905
+  size: 404, 363
+  orig: 404, 363
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/EyesOpen
+  rotate: false
+  xy: 1681, 102
+  size: 112, 74
+  orig: 112, 74
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Glasses
+  rotate: false
+  xy: 1328, 763
+  size: 41, 115
+  orig: 41, 115
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HClothes
+  rotate: true
+  xy: 1092, 176
+  size: 156, 159
+  orig: 156, 159
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Mustache
+  rotate: false
+  xy: 1261, 102
+  size: 107, 88
+  orig: 107, 88
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/EyesOpen
+  rotate: false
+  xy: 1261, 276
+  size: 108, 67
+  orig: 108, 67
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Tail
+  rotate: false
+  xy: 882, 1144
+  size: 46, 124
+  orig: 46, 124
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Tail
+  rotate: false
+  xy: 882, 1144
+  size: 46, 124
+  orig: 46, 124
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Tail
+  rotate: false
+  xy: 882, 1144
+  size: 46, 124
+  orig: 46, 124
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Tail
+  rotate: false
+  xy: 882, 1144
+  size: 46, 124
+  orig: 46, 124
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Body
+  rotate: false
+  xy: 1379, 501
+  size: 377, 347
+  orig: 377, 347
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Cheek
+  rotate: true
+  xy: 1328, 528
+  size: 100, 41
+  orig: 100, 41
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/ChildrenNipple
+  rotate: false
+  xy: 1082, 342
+  size: 169, 150
+  orig: 169, 150
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/HandL
+  rotate: true
+  xy: 967, 502
+  size: 102, 198
+  orig: 102, 198
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/HandR
+  rotate: true
+  xy: 1840, 230
+  size: 102, 198
+  orig: 102, 198
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/HalfCloseEyes
+  rotate: true
+  xy: 300, 342
+  size: 149, 74
+  orig: 149, 74
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/HandL
+  rotate: true
+  xy: 1830, 1168
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/Eyebrow
+  rotate: false
+  xy: 1958, 747
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/HalfCloseEyes
+  rotate: true
+  xy: 551, 342
+  size: 149, 73
+  orig: 149, 73
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/HandL
+  rotate: true
+  xy: 1823, 822
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/Tail
+  rotate: true
+  xy: 1858, 1818
+  size: 74, 174
+  orig: 74, 174
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/Hair
+  rotate: true
+  xy: 938, 614
+  size: 264, 380
+  orig: 264, 380
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/HalfCloseEyes
+  rotate: true
+  xy: 384, 342
+  size: 149, 74
+  orig: 149, 74
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/Tail
+  rotate: true
+  xy: 1858, 1734
+  size: 74, 173
+  orig: 74, 173
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/HalfCloseEyes
+  rotate: true
+  xy: 634, 342
+  size: 149, 73
+  orig: 149, 73
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/Tail
+  rotate: true
+  xy: 1858, 1650
+  size: 74, 173
+  orig: 74, 173
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/EyesClose
+  rotate: true
+  xy: 832, 750
+  size: 136, 96
+  orig: 136, 96
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/HalfCloseEyes
+  rotate: true
+  xy: 468, 342
+  size: 149, 73
+  orig: 149, 73
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/HandL
+  rotate: true
+  xy: 1823, 1052
+  size: 106, 209
+  orig: 106, 209
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/HandR
+  rotate: true
+  xy: 1823, 936
+  size: 106, 209
+  orig: 106, 209
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/Leg
+  rotate: true
+  xy: 1830, 1526
+  size: 114, 207
+  orig: 114, 207
+  offset: 0, 0
+  index: -1
+Mouth/SmileOpenMouthMiddle
+  rotate: false
+  xy: 1238, 10
+  size: 134, 82
+  orig: 134, 82
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/EyesOpen
+  rotate: false
+  xy: 1092, 10
+  size: 136, 82
+  orig: 136, 82
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/Glasses
+  rotate: true
+  xy: 1328, 638
+  size: 115, 41
+  orig: 115, 41
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/Leg
+  rotate: true
+  xy: 1803, 102
+  size: 76, 195
+  orig: 76, 195
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/Eyebrow
+  rotate: false
+  xy: 1973, 34
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/Head
+  rotate: false
+  xy: 938, 1293
+  size: 437, 360
+  orig: 437, 360
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/Head
+  rotate: false
+  xy: 10, 1274
+  size: 448, 360
+  orig: 448, 360
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/HalfCloseEyes
+  rotate: false
+  xy: 1530, 102
+  size: 141, 74
+  orig: 141, 74
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/Leg
+  rotate: true
+  xy: 1620, 11
+  size: 81, 200
+  orig: 81, 200
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/Body
+  rotate: false
+  xy: 1379, 186
+  size: 376, 305
+  orig: 376, 305
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/Hat
+  rotate: false
+  xy: 1858, 1902
+  size: 174, 136
+  orig: 174, 136
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/EyebrowR
+  rotate: true
+  xy: 1261, 200
+  size: 66, 108
+  orig: 66, 108
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/EyebrowR
+  rotate: true
+  xy: 1261, 200
+  size: 66, 108
+  orig: 66, 108
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/Head
+  rotate: false
+  xy: 938, 888
+  size: 433, 395
+  orig: 433, 395
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/Body
+  rotate: false
+  xy: 1766, 342
+  size: 270, 359
+  orig: 270, 359
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/Head
+  rotate: false
+  xy: 1385, 1263
+  size: 435, 390
+  orig: 435, 390
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/Body
+  rotate: true
+  xy: 370, 11
+  size: 321, 353
+  orig: 321, 353
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/EyesClose
+  rotate: true
+  xy: 204, 342
+  size: 149, 86
+  orig: 149, 86
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/HalfCloseEyes
+  rotate: true
+  xy: 936, 342
+  size: 149, 63
+  orig: 149, 63
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/Head
+  rotate: false
+  xy: 1381, 858
+  size: 432, 395
+  orig: 432, 395
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/Cap
+  rotate: true
+  xy: 1261, 353
+  size: 139, 108
+  orig: 139, 108
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Body
+  rotate: true
+  xy: 421, 531
+  size: 364, 401
+  orig: 364, 401
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/HalfCloseEyes
+  rotate: true
+  xy: 421, 1088
+  size: 125, 36
+  orig: 125, 36
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/Body
+  rotate: true
+  xy: 10, 526
+  size: 364, 401
+  orig: 364, 401
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/Head
+  rotate: false
+  xy: 10, 1644
+  size: 458, 394
+  orig: 458, 394
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/Body
+  rotate: true
+  xy: 10, 900
+  size: 364, 401
+  orig: 364, 401
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/EyesOpen
+  rotate: false
+  xy: 1092, 102
+  size: 136, 64
+  orig: 136, 64
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/HalfCloseEyes
+  rotate: true
+  xy: 1765, 188
+  size: 144, 65
+  orig: 144, 65
+  offset: 0, 0
+  index: -1
+j
+  rotate: true
+  xy: 421, 1223
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+shlap2
+  rotate: false
+  xy: 1830, 11
+  size: 133, 81
+  orig: 133, 81
+  offset: 0, 0
+  index: -1
+
+OthersFamily4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Book2
+  rotate: true
+  xy: 337, 383
+  size: 79, 89
+  orig: 79, 89
+  offset: 0, 0
+  index: -1
+Book3
+  rotate: true
+  xy: 337, 383
+  size: 79, 89
+  orig: 79, 89
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/Body
+  rotate: true
+  xy: 1537, 1677
+  size: 361, 366
+  orig: 361, 366
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/Foot
+  rotate: false
+  xy: 436, 985
+  size: 116, 48
+  orig: 116, 48
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/Hand
+  rotate: true
+  xy: 1553, 11
+  size: 79, 222
+  orig: 79, 222
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/Tail
+  rotate: false
+  xy: 10, 10
+  size: 95, 192
+  orig: 95, 192
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/Glasses
+  rotate: false
+  xy: 436, 793
+  size: 115, 38
+  orig: 115, 38
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/Tail
+  rotate: true
+  xy: 564, 1194
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Tail
+  rotate: true
+  xy: 564, 1194
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Eyebrow
+  rotate: true
+  xy: 1785, 38
+  size: 54, 49
+  orig: 54, 49
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/Body
+  rotate: false
+  xy: 10, 572
+  size: 323, 353
+  orig: 323, 353
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/Tail
+  rotate: false
+  xy: 564, 13
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/HalfCloseEyes
+  rotate: true
+  xy: 379, 1149
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/Tail
+  rotate: false
+  xy: 666, 13
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/EyesClose
+  rotate: false
+  xy: 1913, 1937
+  size: 125, 101
+  orig: 125, 101
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/Foot
+  rotate: false
+  xy: 436, 459
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/Leg
+  rotate: true
+  xy: 562, 954
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/Tail
+  rotate: true
+  xy: 730, 213
+  size: 47, 125
+  orig: 47, 125
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Body
+  rotate: false
+  xy: 392, 1296
+  size: 364, 361
+  orig: 364, 361
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/EyesClose
+  rotate: false
+  xy: 1912, 1525
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Foot
+  rotate: false
+  xy: 436, 736
+  size: 114, 47
+  orig: 114, 47
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Leg
+  rotate: true
+  xy: 562, 1014
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Mustache
+  rotate: true
+  xy: 515, 304
+  size: 69, 94
+  orig: 69, 94
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Tail
+  rotate: false
+  xy: 337, 220
+  size: 49, 153
+  orig: 49, 153
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/Leg
+  rotate: true
+  xy: 562, 1074
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/Tail
+  rotate: false
+  xy: 379, 867
+  size: 47, 125
+  orig: 47, 125
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/Body
+  rotate: false
+  xy: 766, 566
+  size: 361, 359
+  orig: 361, 359
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/EyesClose
+  rotate: false
+  xy: 1913, 1625
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/Leg
+  rotate: true
+  xy: 562, 1134
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/Tail
+  rotate: true
+  xy: 1881, 421
+  size: 49, 153
+  orig: 49, 153
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/Body
+  rotate: false
+  xy: 777, 1303
+  size: 364, 361
+  orig: 364, 361
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/EyesOpen
+  rotate: false
+  xy: 436, 841
+  size: 115, 76
+  orig: 115, 76
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/Foot
+  rotate: false
+  xy: 436, 1043
+  size: 116, 48
+  orig: 116, 48
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/Hand
+  rotate: false
+  xy: 1326, 13
+  size: 79, 222
+  orig: 79, 222
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/Leg
+  rotate: false
+  xy: 1074, 12
+  size: 52, 196
+  orig: 52, 196
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/Tail
+  rotate: true
+  xy: 1881, 480
+  size: 51, 155
+  orig: 51, 155
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/MustacheR
+  rotate: true
+  xy: 1996, 339
+  size: 72, 38
+  orig: 72, 38
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/Foot
+  rotate: false
+  xy: 436, 514
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/Foot
+  rotate: false
+  xy: 436, 514
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/Foot
+  rotate: false
+  xy: 436, 514
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/Foot
+  rotate: false
+  xy: 436, 514
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/Leg
+  rotate: true
+  xy: 1845, 46
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/Leg
+  rotate: true
+  xy: 1845, 46
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/Body
+  rotate: true
+  xy: 10, 213
+  size: 346, 317
+  orig: 346, 317
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/EyesClose
+  rotate: false
+  xy: 1897, 707
+  size: 138, 93
+  orig: 138, 93
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/Foot
+  rotate: false
+  xy: 436, 569
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/Hand
+  rotate: false
+  xy: 1237, 13
+  size: 79, 222
+  orig: 79, 222
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/Leg
+  rotate: false
+  xy: 1074, 218
+  size: 52, 196
+  orig: 52, 196
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Body
+  rotate: true
+  xy: 395, 1667
+  size: 371, 372
+  orig: 371, 372
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/HalfCloseEyes
+  rotate: false
+  xy: 1912, 1439
+  size: 125, 76
+  orig: 125, 76
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/HandR
+  rotate: true
+  xy: 561, 784
+  size: 100, 195
+  orig: 100, 195
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HalfCloseEyes
+  rotate: false
+  xy: 1415, 10
+  size: 128, 80
+  orig: 128, 80
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Body
+  rotate: false
+  xy: 1510, 212
+  size: 361, 359
+  orig: 361, 359
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/HandR
+  rotate: true
+  xy: 1845, 105
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Body
+  rotate: false
+  xy: 10, 1296
+  size: 372, 363
+  orig: 372, 363
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/EyesClose
+  rotate: false
+  xy: 1510, 100
+  size: 128, 102
+  orig: 128, 102
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/HandR
+  rotate: false
+  xy: 329, 10
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HandR
+  rotate: false
+  xy: 329, 10
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Body
+  rotate: false
+  xy: 1139, 569
+  size: 361, 359
+  orig: 361, 359
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/HandL
+  rotate: false
+  xy: 115, 10
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HandL
+  rotate: false
+  xy: 115, 10
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/HandL
+  rotate: false
+  xy: 115, 10
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/HandL
+  rotate: false
+  xy: 115, 10
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/HandR
+  rotate: false
+  xy: 222, 10
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Leg
+  rotate: true
+  xy: 1648, 102
+  size: 100, 187
+  orig: 100, 187
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/Body
+  rotate: true
+  xy: 10, 935
+  size: 351, 359
+  orig: 351, 359
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/Hair
+  rotate: false
+  xy: 560, 488
+  size: 196, 286
+  orig: 196, 286
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/Body
+  rotate: true
+  xy: 1137, 245
+  size: 314, 359
+  orig: 314, 359
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/Body
+  rotate: false
+  xy: 766, 270
+  size: 288, 286
+  orig: 288, 286
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouthBig
+  rotate: false
+  xy: 436, 1234
+  size: 118, 52
+  orig: 118, 52
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/Body
+  rotate: true
+  xy: 1151, 938
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/EyesClose
+  rotate: false
+  xy: 1897, 810
+  size: 138, 105
+  orig: 138, 105
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/Leg
+  rotate: false
+  xy: 343, 575
+  size: 78, 198
+  orig: 78, 198
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/Body
+  rotate: true
+  xy: 1524, 581
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/EyesClose
+  rotate: false
+  xy: 1913, 1831
+  size: 125, 96
+  orig: 125, 96
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/Body
+  rotate: false
+  xy: 777, 1674
+  size: 370, 364
+  orig: 370, 364
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/Body
+  rotate: true
+  xy: 766, 935
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/EyesClose
+  rotate: false
+  xy: 1913, 1725
+  size: 125, 96
+  orig: 125, 96
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/Body
+  rotate: false
+  xy: 1157, 1674
+  size: 370, 364
+  orig: 370, 364
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/Body
+  rotate: false
+  xy: 10, 1669
+  size: 375, 369
+  orig: 375, 369
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/EyesClose
+  rotate: false
+  xy: 1897, 604
+  size: 138, 93
+  orig: 138, 93
+  offset: 0, 0
+  index: -1
+PigFamily/PigSon/EyesOpen
+  rotate: false
+  xy: 623, 310
+  size: 133, 70
+  orig: 133, 70
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/EyesOpen
+  rotate: true
+  xy: 1415, 100
+  size: 135, 85
+  orig: 135, 85
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/Foot
+  rotate: false
+  xy: 515, 212
+  size: 98, 48
+  orig: 98, 48
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/HalfCloseEyes
+  rotate: false
+  xy: 1897, 1060
+  size: 139, 68
+  orig: 139, 68
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/Hand
+  rotate: false
+  xy: 1136, 11
+  size: 91, 224
+  orig: 91, 224
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/Tail
+  rotate: false
+  xy: 436, 11
+  size: 118, 191
+  orig: 118, 191
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/Body
+  rotate: true
+  xy: 1537, 1317
+  size: 350, 365
+  orig: 350, 365
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/EyebrowL
+  rotate: false
+  xy: 343, 783
+  size: 81, 74
+  orig: 81, 74
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/EyebrowL
+  rotate: false
+  xy: 343, 783
+  size: 81, 74
+  orig: 81, 74
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/Hair
+  rotate: true
+  xy: 396, 222
+  size: 151, 109
+  orig: 151, 109
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/HalfCloseEyes
+  rotate: false
+  xy: 1897, 541
+  size: 137, 53
+  orig: 137, 53
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/Tail
+  rotate: false
+  xy: 768, 13
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/EyesClose
+  rotate: false
+  xy: 436, 383
+  size: 136, 66
+  orig: 136, 66
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/EyesOpen
+  rotate: true
+  xy: 1074, 424
+  size: 132, 53
+  orig: 132, 53
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/HalfCloseEyes
+  rotate: true
+  xy: 379, 1002
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/HalfCloseEyes
+  rotate: true
+  xy: 379, 1002
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/Mustache
+  rotate: false
+  xy: 623, 212
+  size: 97, 88
+  orig: 97, 88
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/Tail
+  rotate: false
+  xy: 870, 13
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/Hair
+  rotate: true
+  xy: 1881, 215
+  size: 196, 105
+  orig: 196, 105
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/Tail
+  rotate: false
+  xy: 972, 13
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/Tail
+  rotate: false
+  xy: 972, 13
+  size: 92, 189
+  orig: 92, 189
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/Body
+  rotate: true
+  xy: 1151, 1306
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/EyesClose
+  rotate: false
+  xy: 1912, 1369
+  size: 125, 60
+  orig: 125, 60
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/Foot
+  rotate: false
+  xy: 436, 680
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Foot
+  rotate: false
+  xy: 436, 680
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/Leg
+  rotate: true
+  xy: 562, 894
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Leg
+  rotate: true
+  xy: 562, 894
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Beard
+  rotate: false
+  xy: 337, 472
+  size: 89, 90
+  orig: 89, 90
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Beard
+  rotate: false
+  xy: 337, 472
+  size: 89, 90
+  orig: 89, 90
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/EyesClose
+  rotate: false
+  xy: 1912, 1307
+  size: 125, 52
+  orig: 125, 52
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/Body
+  rotate: true
+  xy: 1524, 949
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/EyesClose
+  rotate: false
+  xy: 1897, 1218
+  size: 140, 79
+  orig: 140, 79
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/Foot
+  rotate: false
+  xy: 436, 624
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/Foot
+  rotate: false
+  xy: 436, 624
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/HalfCloseEyes
+  rotate: false
+  xy: 1897, 992
+  size: 139, 58
+  orig: 139, 58
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/EyesClose
+  rotate: false
+  xy: 1897, 1138
+  size: 140, 70
+  orig: 140, 70
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/HalfCloseEyes
+  rotate: false
+  xy: 1897, 925
+  size: 139, 57
+  orig: 139, 57
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/Foot
+  rotate: false
+  xy: 436, 927
+  size: 116, 48
+  orig: 116, 48
+  offset: 0, 0
+  index: -1
+bandan
+  rotate: true
+  xy: 436, 1101
+  size: 123, 116
+  orig: 123, 116
+  offset: 0, 0
+  index: -1
+gad1
+  rotate: false
+  xy: 947, 213
+  size: 71, 47
+  orig: 71, 47
+  offset: 0, 0
+  index: -1
+gad2
+  rotate: false
+  xy: 865, 213
+  size: 72, 47
+  orig: 72, 47
+  offset: 0, 0
+  index: -1
+shlap3
+  rotate: false
+  xy: 623, 390
+  size: 133, 88
+  orig: 133, 88
+  offset: 0, 0
+  index: -1
+
+OthersFamily5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 691, 838
+  size: 111, 93
+  orig: 111, 93
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 801, 602
+  size: 109, 63
+  orig: 109, 63
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/EyesOpen
+  rotate: false
+  xy: 505, 512
+  size: 135, 88
+  orig: 135, 88
+  offset: 0, 0
+  index: -1
+CatFamily/CatDaughter/Leg
+  rotate: false
+  xy: 807, 1120
+  size: 52, 196
+  orig: 52, 196
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/Foot
+  rotate: true
+  xy: 1189, 1599
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Foot
+  rotate: true
+  xy: 1189, 1599
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/Hand
+  rotate: true
+  xy: 1733, 1845
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Hand
+  rotate: true
+  xy: 1733, 1845
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandma/Leg
+  rotate: true
+  xy: 1450, 1700
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Leg
+  rotate: true
+  xy: 1450, 1700
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/Body
+  rotate: false
+  xy: 10, 1679
+  size: 326, 357
+  orig: 326, 357
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/EyesClose
+  rotate: false
+  xy: 407, 831
+  size: 136, 73
+  orig: 136, 73
+  offset: 0, 0
+  index: -1
+CatFamily/CatGrandpa/EyesOpen
+  rotate: false
+  xy: 905, 1439
+  size: 132, 67
+  orig: 132, 67
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/Foot
+  rotate: true
+  xy: 1189, 1475
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/Hand
+  rotate: false
+  xy: 382, 1088
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+CatFamily/CatMama/Leg
+  rotate: true
+  xy: 1653, 1700
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/Leg
+  rotate: true
+  xy: 1653, 1700
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/Body
+  rotate: false
+  xy: 10, 1312
+  size: 326, 357
+  orig: 326, 357
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/EyesClose
+  rotate: true
+  xy: 515, 685
+  size: 136, 73
+  orig: 136, 73
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/EyesOpen
+  rotate: false
+  xy: 1043, 1561
+  size: 136, 73
+  orig: 136, 73
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/Foot
+  rotate: true
+  xy: 1243, 889
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+CatFamily/CatPapa/Hand
+  rotate: false
+  xy: 469, 1088
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/HalfCloseEyes
+  rotate: false
+  xy: 1184, 1284
+  size: 127, 77
+  orig: 127, 77
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandma/Hand
+  rotate: true
+  xy: 602, 1587
+  size: 77, 220
+  orig: 77, 220
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/EyesOpen
+  rotate: true
+  xy: 1377, 1601
+  size: 109, 62
+  orig: 109, 62
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/HalfCloseEyes
+  rotate: false
+  xy: 1047, 1293
+  size: 127, 76
+  orig: 127, 76
+  offset: 0, 0
+  index: -1
+DogFamily/DogGrandpa/Hand
+  rotate: true
+  xy: 1503, 1845
+  size: 77, 220
+  orig: 77, 220
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/HalfCloseEyes
+  rotate: false
+  xy: 1715, 1613
+  size: 127, 77
+  orig: 127, 77
+  offset: 0, 0
+  index: -1
+DogFamily/DogMama/Hand
+  rotate: true
+  xy: 1273, 1845
+  size: 77, 220
+  orig: 77, 220
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/HalfCloseEyes
+  rotate: false
+  xy: 1184, 1371
+  size: 127, 76
+  orig: 127, 76
+  offset: 0, 0
+  index: -1
+DogFamily/DogPapa/Hand
+  rotate: true
+  xy: 1043, 1845
+  size: 77, 220
+  orig: 77, 220
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/EyesClose
+  rotate: true
+  xy: 699, 700
+  size: 128, 93
+  orig: 128, 93
+  offset: 0, 0
+  index: -1
+DogFamily/DogSon/HalfCloseEyes
+  rotate: false
+  xy: 905, 1516
+  size: 128, 77
+  orig: 128, 77
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/EyesOpen
+  rotate: false
+  xy: 1151, 1077
+  size: 112, 65
+  orig: 112, 65
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/Glasses
+  rotate: true
+  xy: 284, 406
+  size: 182, 65
+  orig: 182, 65
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/HalfCloseEyes
+  rotate: false
+  xy: 768, 941
+  size: 127, 75
+  orig: 127, 75
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/Hand
+  rotate: false
+  xy: 254, 790
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/Beard
+  rotate: false
+  xy: 572, 610
+  size: 119, 65
+  orig: 119, 65
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/EyesClose
+  rotate: false
+  xy: 1244, 1624
+  size: 123, 86
+  orig: 123, 86
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/EyesOpen
+  rotate: false
+  xy: 1499, 1540
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/HalfCloseEyes
+  rotate: false
+  xy: 905, 967
+  size: 123, 70
+  orig: 123, 70
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/Hand
+  rotate: true
+  xy: 602, 1413
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/Leg
+  rotate: true
+  xy: 1247, 1720
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/Leg
+  rotate: true
+  xy: 1247, 1720
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/MustacheL
+  rotate: true
+  xy: 825, 1026
+  size: 84, 61
+  orig: 84, 61
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandpa/Tail
+  rotate: false
+  xy: 10, 804
+  size: 112, 205
+  orig: 112, 205
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxGrandma/Tail
+  rotate: false
+  xy: 10, 804
+  size: 112, 205
+  orig: 112, 205
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/EyesOpen
+  rotate: false
+  xy: 921, 1754
+  size: 112, 68
+  orig: 112, 68
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/HalfCloseEyes
+  rotate: false
+  xy: 1244, 1537
+  size: 123, 77
+  orig: 123, 77
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxMama/Hand
+  rotate: true
+  xy: 602, 1500
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/Hand
+  rotate: true
+  xy: 602, 1500
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/EyesClose
+  rotate: false
+  xy: 1047, 1465
+  size: 123, 86
+  orig: 123, 86
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/EyesOpen
+  rotate: false
+  xy: 1377, 1537
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxPapa/HalfCloseEyes
+  rotate: false
+  xy: 896, 1047
+  size: 123, 70
+  orig: 123, 70
+  offset: 0, 0
+  index: -1
+FoxFamily/FoxSon/EyesOpen
+  rotate: false
+  xy: 1043, 1644
+  size: 136, 69
+  orig: 136, 69
+  offset: 0, 0
+  index: -1
+HippoFamily/George/EyesClose
+  rotate: false
+  xy: 553, 831
+  size: 128, 94
+  orig: 128, 94
+  offset: 0, 0
+  index: -1
+HippoFamily/George/HalfCloseEyes
+  rotate: false
+  xy: 1047, 1379
+  size: 127, 76
+  orig: 127, 76
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Leg
+  rotate: false
+  xy: 132, 610
+  size: 98, 185
+  orig: 98, 185
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Leg
+  rotate: false
+  xy: 132, 610
+  size: 98, 185
+  orig: 98, 185
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Bow
+  rotate: true
+  xy: 376, 269
+  size: 127, 99
+  orig: 127, 99
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/EyesClose
+  rotate: false
+  xy: 359, 406
+  size: 123, 92
+  orig: 123, 92
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/EyesOpen
+  rotate: true
+  xy: 802, 675
+  size: 123, 92
+  orig: 123, 92
+  offset: 0, 0
+  index: -1
+HippoFamily/George/EyesOpen
+  rotate: true
+  xy: 802, 675
+  size: 123, 92
+  orig: 123, 92
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Tail
+  rotate: false
+  xy: 1335, 1180
+  size: 49, 127
+  orig: 49, 127
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Tail
+  rotate: false
+  xy: 1335, 1180
+  size: 49, 127
+  orig: 49, 127
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/EyesClose
+  rotate: false
+  xy: 346, 1317
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Beard
+  rotate: true
+  xy: 701, 602
+  size: 88, 90
+  orig: 88, 90
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Eyebrow
+  rotate: true
+  xy: 1273, 1080
+  size: 59, 55
+  orig: 59, 55
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/EyesClose
+  rotate: false
+  xy: 796, 506
+  size: 123, 86
+  orig: 123, 86
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/EyesOpen
+  rotate: false
+  xy: 921, 1690
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/HalfCloseEyes
+  rotate: false
+  xy: 905, 1603
+  size: 128, 77
+  orig: 128, 77
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/EyesClose
+  rotate: true
+  xy: 812, 808
+  size: 123, 86
+  orig: 123, 86
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/EyesOpen
+  rotate: false
+  xy: 1160, 1013
+  size: 111, 54
+  orig: 111, 54
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Leg
+  rotate: false
+  xy: 240, 598
+  size: 95, 182
+  orig: 95, 182
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Leg
+  rotate: false
+  xy: 240, 598
+  size: 95, 182
+  orig: 95, 182
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Leg
+  rotate: false
+  xy: 240, 598
+  size: 95, 182
+  orig: 95, 182
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Leg
+  rotate: false
+  xy: 240, 598
+  size: 95, 182
+  orig: 95, 182
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/EyesClose
+  rotate: false
+  xy: 796, 410
+  size: 132, 86
+  orig: 132, 86
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/HalfCloseEyes
+  rotate: false
+  xy: 1244, 1457
+  size: 127, 70
+  orig: 127, 70
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Tail
+  rotate: true
+  xy: 908, 1301
+  size: 51, 129
+  orig: 51, 129
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/EyesClose
+  rotate: true
+  xy: 10, 12
+  size: 136, 106
+  orig: 136, 106
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/EyesOpen
+  rotate: true
+  xy: 1049, 840
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/HandR
+  rotate: true
+  xy: 1259, 1932
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/Leg
+  rotate: false
+  xy: 921, 1832
+  size: 112, 204
+  orig: 112, 204
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandma/Tail
+  rotate: false
+  xy: 126, 10
+  size: 51, 171
+  orig: 51, 171
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/Body
+  rotate: false
+  xy: 10, 1019
+  size: 285, 283
+  orig: 285, 283
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/EyesClose
+  rotate: true
+  xy: 411, 685
+  size: 136, 94
+  orig: 136, 94
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/EyesOpen
+  rotate: true
+  xy: 1119, 840
+  size: 128, 52
+  orig: 128, 52
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/HandR
+  rotate: false
+  xy: 10, 158
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoGrandpa/Leg
+  rotate: false
+  xy: 480, 1463
+  size: 112, 204
+  orig: 112, 204
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/EyesClose
+  rotate: true
+  xy: 484, 1317
+  size: 136, 106
+  orig: 136, 106
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/EyesOpen
+  rotate: false
+  xy: 1135, 1214
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/HandL
+  rotate: true
+  xy: 1043, 1932
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/HandR
+  rotate: true
+  xy: 1475, 1932
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoMama/Leg
+  rotate: false
+  xy: 10, 590
+  size: 112, 204
+  orig: 112, 204
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/Body
+  rotate: false
+  xy: 626, 1753
+  size: 285, 283
+  orig: 285, 283
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/EyesClose
+  rotate: false
+  xy: 359, 508
+  size: 136, 94
+  orig: 136, 94
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/EyesOpen
+  rotate: false
+  xy: 1135, 1152
+  size: 128, 52
+  orig: 128, 52
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/Glasses
+  rotate: false
+  xy: 1660, 1759
+  size: 185, 76
+  orig: 185, 76
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/HandL
+  rotate: false
+  xy: 10, 374
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/HandR
+  rotate: true
+  xy: 1691, 1932
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoPapa/Leg
+  rotate: false
+  xy: 132, 805
+  size: 112, 204
+  orig: 112, 204
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/EyesOpen
+  rotate: true
+  xy: 1321, 1317
+  size: 130, 60
+  orig: 130, 60
+  offset: 0, 0
+  index: -1
+LeoFamily/LeoSon/Tail
+  rotate: false
+  xy: 190, 244
+  size: 75, 170
+  orig: 75, 170
+  offset: 0, 0
+  index: -1
+Mouth/SmileHalfOpenMouthBig
+  rotate: false
+  xy: 1002, 1134
+  size: 123, 69
+  orig: 123, 69
+  offset: 0, 0
+  index: -1
+Mouth/SmileOpenMouthBig
+  rotate: true
+  xy: 508, 935
+  size: 142, 98
+  orig: 142, 98
+  offset: 0, 0
+  index: -1
+Mouth/SurpriseOpenMouthMiddle
+  rotate: false
+  xy: 1855, 1768
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+PigFamily/PigDaughter/Tail
+  rotate: false
+  xy: 183, 424
+  size: 91, 164
+  orig: 91, 164
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/Tail
+  rotate: false
+  xy: 183, 424
+  size: 91, 164
+  orig: 91, 164
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/Tail
+  rotate: false
+  xy: 183, 424
+  size: 91, 164
+  orig: 91, 164
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/EyesOpen
+  rotate: false
+  xy: 1029, 1056
+  size: 112, 68
+  orig: 112, 68
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/HalfCloseEyes
+  rotate: false
+  xy: 869, 1214
+  size: 123, 77
+  orig: 123, 77
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/Hand
+  rotate: false
+  xy: 124, 191
+  size: 56, 186
+  orig: 56, 186
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandma/Tail
+  rotate: false
+  xy: 275, 232
+  size: 91, 164
+  orig: 91, 164
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/EyesClose
+  rotate: false
+  xy: 1449, 1604
+  size: 123, 86
+  orig: 123, 86
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/EyesOpen
+  rotate: false
+  xy: 1381, 1473
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/HalfCloseEyes
+  rotate: true
+  xy: 908, 834
+  size: 123, 70
+  orig: 123, 70
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/Hand
+  rotate: false
+  xy: 341, 830
+  size: 56, 186
+  orig: 56, 186
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/Leg
+  rotate: false
+  xy: 1962, 1841
+  size: 76, 195
+  orig: 76, 195
+  offset: 0, 0
+  index: -1
+PigFamily/PigGrandpa/Tail
+  rotate: false
+  xy: 407, 914
+  size: 91, 164
+  orig: 91, 164
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/EyesOpen
+  rotate: false
+  xy: 1038, 978
+  size: 112, 68
+  orig: 112, 68
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/HalfCloseEyes
+  rotate: false
+  xy: 869, 1127
+  size: 123, 77
+  orig: 123, 77
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/Hand
+  rotate: false
+  xy: 345, 634
+  size: 56, 186
+  orig: 56, 186
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/Hand
+  rotate: false
+  xy: 345, 634
+  size: 56, 186
+  orig: 56, 186
+  offset: 0, 0
+  index: -1
+PigFamily/PigMama/Leg
+  rotate: true
+  xy: 1455, 1759
+  size: 76, 195
+  orig: 76, 195
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/Leg
+  rotate: true
+  xy: 1455, 1759
+  size: 76, 195
+  orig: 76, 195
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/EyesClose
+  rotate: false
+  xy: 1582, 1604
+  size: 123, 86
+  orig: 123, 86
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/EyesOpen
+  rotate: false
+  xy: 1503, 1476
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+PigFamily/PigPapa/HalfCloseEyes
+  rotate: false
+  xy: 1002, 1213
+  size: 123, 70
+  orig: 123, 70
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/EyesClose
+  rotate: true
+  xy: 598, 685
+  size: 136, 91
+  orig: 136, 91
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaDaughter/Leg
+  rotate: true
+  xy: 1249, 1779
+  size: 56, 196
+  orig: 56, 196
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/EyesClose
+  rotate: false
+  xy: 650, 514
+  size: 136, 78
+  orig: 136, 78
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/EyesOpen
+  rotate: true
+  xy: 831, 1445
+  size: 132, 64
+  orig: 132, 64
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/Foot
+  rotate: false
+  xy: 376, 214
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/Hand
+  rotate: true
+  xy: 600, 1326
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandma/Leg
+  rotate: false
+  xy: 124, 387
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/Leg
+  rotate: false
+  xy: 124, 387
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/Leg
+  rotate: false
+  xy: 124, 387
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/Leg
+  rotate: false
+  xy: 124, 387
+  size: 49, 193
+  orig: 49, 193
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/Foot
+  rotate: true
+  xy: 1455, 1349
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/Foot
+  rotate: true
+  xy: 1455, 1349
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaGrandpa/Hand
+  rotate: false
+  xy: 633, 1097
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/EyesOpen
+  rotate: false
+  xy: 411, 612
+  size: 151, 63
+  orig: 151, 63
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/Foot
+  rotate: true
+  xy: 1510, 1352
+  size: 114, 45
+  orig: 114, 45
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaMama/Hand
+  rotate: false
+  xy: 720, 1097
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/Hand
+  rotate: false
+  xy: 720, 1097
+  size: 77, 219
+  orig: 77, 219
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/Body
+  rotate: false
+  xy: 346, 1677
+  size: 270, 359
+  orig: 270, 359
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/EyesClose
+  rotate: false
+  xy: 650, 431
+  size: 136, 73
+  orig: 136, 73
+  offset: 0, 0
+  index: -1
+PumaFamily/PumaPapa/EyesOpen
+  rotate: false
+  xy: 905, 1362
+  size: 132, 67
+  orig: 132, 67
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/Glasses
+  rotate: false
+  xy: 633, 1026
+  size: 182, 61
+  orig: 182, 61
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/HalfCloseEyes
+  rotate: true
+  xy: 988, 832
+  size: 125, 51
+  orig: 125, 51
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandma/Hand
+  rotate: false
+  xy: 305, 1082
+  size: 67, 220
+  orig: 67, 220
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Hand
+  rotate: false
+  xy: 305, 1082
+  size: 67, 220
+  orig: 67, 220
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/Eyebrow
+  rotate: true
+  xy: 1565, 1407
+  size: 59, 55
+  orig: 59, 55
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonGrandpa/EyesOpen
+  rotate: true
+  xy: 1273, 1149
+  size: 125, 52
+  orig: 125, 52
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/Hand
+  rotate: false
+  xy: 556, 1087
+  size: 67, 220
+  orig: 67, 220
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/Hand
+  rotate: false
+  xy: 556, 1087
+  size: 67, 220
+  orig: 67, 220
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonMama/Leg
+  rotate: true
+  xy: 1043, 1723
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/Leg
+  rotate: true
+  xy: 1043, 1723
+  size: 50, 194
+  orig: 50, 194
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonPapa/EyesOpen
+  rotate: true
+  xy: 1181, 878
+  size: 125, 52
+  orig: 125, 52
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/EyesClose
+  rotate: false
+  xy: 616, 941
+  size: 142, 75
+  orig: 142, 75
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/Hand
+  rotate: true
+  xy: 626, 1674
+  size: 69, 222
+  orig: 69, 222
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/Leg
+  rotate: true
+  xy: 1043, 1783
+  size: 52, 196
+  orig: 52, 196
+  offset: 0, 0
+  index: -1
+RaccoonFamily/RaccoonSon/Tail
+  rotate: false
+  xy: 346, 1427
+  size: 124, 240
+  orig: 124, 240
+  offset: 0, 0
+  index: -1
+trubka
+  rotate: true
+  xy: 1391, 1352
+  size: 111, 54
+  orig: 111, 54
+  offset: 0, 0
+  index: -1
