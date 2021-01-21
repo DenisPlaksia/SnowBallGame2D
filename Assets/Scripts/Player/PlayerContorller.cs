@@ -18,7 +18,8 @@ public class PlayerContorller : MonoBehaviour
     private float movement;
     private Vector2 direction;
     public float speed;
-
+    private bool _canAttack = false;
+    [SerializeField] private float _timeBetweenAttack = 1.5f;
     private void Start()
     {
         uI = FindObjectOfType<ForceShowUI>();
@@ -36,13 +37,15 @@ public class PlayerContorller : MonoBehaviour
     {
         GameObject bullet = ObjectPool.SharedInstance.GetPooledObject();
 
-        if(bullet != null)
+        if(bullet != null && !_canAttack)
         {
             bullet.SetActive(true);
             bullet.GetComponent<Rigidbody2D>().isKinematic = false;
             bullet.GetComponent<SnowBall>().player = gameObject.GetComponent<Player>();
             bullet.transform.position = _spanwPoint.transform.position;
             bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * (force * 100));
+            _canAttack = true;
+            Invoke(nameof(ResetAttack), _timeBetweenAttack);
         }
     }
 
@@ -81,7 +84,7 @@ public class PlayerContorller : MonoBehaviour
         }
     }
 
-
+    private void ResetAttack() => _canAttack = false;
     private void Move(Vector2 vector)
     {
         transform.Translate(vector * speed * Time.deltaTime);

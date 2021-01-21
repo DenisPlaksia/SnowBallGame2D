@@ -2,17 +2,59 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyDeathState : MonoBehaviour
+[CreateAssetMenu]
+public class EnemyDeathState : State
 {
-    // Start is called before the first frame update
-    void Start()
+    Vector2 point;
+    Vector2 lastPosition;
+    bool check = true;
+    public override void Init()
     {
-        
+        lastPosition = unit.transform.position;
+        point = new Vector2(15f, unit.transform.position.y);
+    }
+    public override void Run()
+    {
+        if (IsFinished)
+        {
+            return;
+        }
+
+        if(check)
+        {
+            MoveTo();
+        }
+        else
+        {
+            RemoveToBack();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void MoveTo()
     {
-        
+        Debug.Log($"MMove {point} + {unit.gameObject.name}");
+        unit.SetCharackterState("Walking");
+        unit.transform.position = Vector2.MoveTowards(unit.transform.position, point, 2f * Time.deltaTime);
+        if (unit.transform.position.x == point.x)
+        {
+            check = false;
+            unit.GetComponent<Enemy>().ChnageEnemyData(EnemyDataContainer.Singleton.GetEnemyData(Random.Range(0, EnemyDataContainer.Singleton.enemyDatas.Count)));
+        }
+    }
+
+    public void RemoveToBack()
+    {
+        unit.SetCharackterState("Walking");
+        unit.transform.position = Vector2.MoveTowards(unit.transform.position, lastPosition, 2f * Time.deltaTime);
+        if (unit.transform.position.x == lastPosition.x)
+        {
+            Stop();
+        }
+    }
+
+    public override void Stop()
+    {
+        IsFinished = true;
+        unit.SetCharackterState("Idle");
     }
 }
