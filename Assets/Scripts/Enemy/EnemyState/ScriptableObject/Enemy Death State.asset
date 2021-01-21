@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Enemy Death State
   m_EditorClassIdentifier: 
   unit: {fileID: 0}
+  EnemyWalkState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}

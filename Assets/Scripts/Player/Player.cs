@@ -7,13 +7,13 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     private int _health = 3;
-    private int _score;
+    public int Score { get; set; }
     [SerializeField] private int scoreToWin;
     public event Action<int> OnHealthChange;
     public event Action<int> OnScoreChange;
     private void Start()
     {
-        
+
     }
 
     public void HealthChange(int value)
@@ -27,9 +27,9 @@ public class Player : MonoBehaviour
     }
     public void AddScore(int value)
     {
-        _score += value;
-        OnScoreChange?.Invoke(_score);
-        if(_score >= scoreToWin)
+        Score += value;
+        OnScoreChange?.Invoke(Score);
+        if(Score >= scoreToWin)
         {
             Win();
         }
@@ -46,9 +46,10 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.GetComponent<SnowBall>() != null)
+        var collisionObject = collision.gameObject.GetComponent<SnowBall>();
+        if (collisionObject != null)
         {
-            collision.gameObject.SetActive(false);
+            collisionObject.gameObject.SetActive(false);
             HealthChange(1);
         }
     }

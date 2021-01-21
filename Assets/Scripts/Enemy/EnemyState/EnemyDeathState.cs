@@ -8,6 +8,7 @@ public class EnemyDeathState : State
     Vector2 point;
     Vector2 lastPosition;
     bool check = true;
+    public State EnemyWalkState;
     public override void Init()
     {
         lastPosition = unit.transform.position;
@@ -56,5 +57,6 @@ public class EnemyDeathState : State
     {
         IsFinished = true;
         unit.SetCharackterState("Idle");
+        unit.StartCor();
     }
 }

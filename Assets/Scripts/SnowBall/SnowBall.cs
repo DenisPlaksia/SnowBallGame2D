@@ -8,11 +8,12 @@ public class SnowBall : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<EnemyBehaviour>() != null && player != null)
+        var collisionObject = collision.gameObject.GetComponent<Enemy>();
+        if (collisionObject != null && player != null)
         {
 
-            player.AddScore(collision.gameObject.GetComponent<EnemyBehaviour>().score);
-            collision.gameObject.GetComponent<EnemyBehaviour>().BulletCollision();
+            player.AddScore(collisionObject.GetScore());
+            collisionObject.enemyBehaviour.BulletCollision();
             gameObject.SetActive(false);
         }
         else

@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private EnemyData _enemyData;
     [SerializeField] private SkeletonAnimation skeletonAnimation;
-    [SerializeField] private EnemyBehaviour enemyBehaviour;
+    public EnemyBehaviour enemyBehaviour { get; private set; }
     private void Awake()
     {
         enemyBehaviour = GetComponent<EnemyBehaviour>();
@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour
         SetSkin(_enemyData.skin);
         SetTimeAttack(_enemyData.timeAttack);
     }
+
+    public int GetScore() => _enemyData.score;
 
     public void ChnageEnemyData(EnemyData enemyData)
     {

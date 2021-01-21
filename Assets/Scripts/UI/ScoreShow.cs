@@ -10,6 +10,7 @@ public class ScoreShow : MonoBehaviour
 
     private void Start()
     {
+        Show(_player.Score);
         _player.OnScoreChange += Show;
     }
 

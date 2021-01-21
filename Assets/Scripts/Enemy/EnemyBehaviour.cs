@@ -25,7 +25,7 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
     private void Start()
     {
         SetState(StartState);
-        StartCoroutine(TimeToStop());
+        StartCor();
     }
 
     private void Update()
@@ -65,6 +65,8 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
             SetAnimation(run, true, 1f);
         }
     }
+
+    public void StartCor() => StartCoroutine(TimeToStop());
 
     private IEnumerator TimeToStop()
     {
