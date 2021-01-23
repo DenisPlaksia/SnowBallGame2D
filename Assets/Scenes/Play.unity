@@ -274,7 +274,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 250}
+  m_SizeDelta: {x: 350, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137841667
 MonoBehaviour:
@@ -1349,7 +1349,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 821273459}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -1729,17 +1729,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0fcf3fdaa64ef4785eed8ae337ec92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  variableJoystick: {fileID: 762081354}
+  _variableJoystick: {fileID: 762081354}
   _shootButton: {fileID: 137841667}
   _snowBall: {fileID: 2335353023748272159, guid: 037c1aacbc15fa248a20499c21d7e2cd,
     type: 3}
   _spanwPoint: {fileID: 1566537736}
+  _timeBetweenAttack: 1.5
   skeletonAnimation: {fileID: 709753635}
   idle: {fileID: 11400000, guid: f402ca410dc2c1e4e95ddbd625be774d, type: 2}
   run: {fileID: 11400000, guid: b908392cea29bf541ab19d197cba903f, type: 2}
   currentState: 
   speed: 1
-  _timeBetweenAttack: 1.5
 --- !u!114 &709753642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2020,7 +2020,7 @@ PrefabInstance:
     - target: {fileID: 3881087803815115471, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 212.7
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 3881087803815115471, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
@@ -2030,12 +2030,12 @@ PrefabInstance:
     - target: {fileID: 3881087803815115471, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 169
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3881087803815115471, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 169
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3881087804030458062, guid: ec536a7718376554185e4a856d5ae230,
         type: 3}
@@ -2273,6 +2273,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 720619056}
+  - {fileID: 1536866910}
   - {fileID: 658044751}
   m_Father: {fileID: 1589555854}
   m_RootOrder: 3
@@ -2444,19 +2445,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 001d20d19ce06f045b995622b7cf48e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
-  EnemyShootingState: {fileID: 11400000, guid: 6ccaffb3ae3d43745a26800d5bf99ce7, type: 2}
-  WalkState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
-  StayState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
-  EnemyDathState: {fileID: 11400000, guid: 5658d4a3d0d177749a47af4e53cda87f, type: 2}
-  currentStatePattern: {fileID: 0}
+  _StartState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
+  _EnemyShootingState: {fileID: 11400000, guid: 6ccaffb3ae3d43745a26800d5bf99ce7,
+    type: 2}
+  _WalkState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
+  _StayState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
+  _EnemyDathState: {fileID: 11400000, guid: 5658d4a3d0d177749a47af4e53cda87f, type: 2}
+  _currentStatePattern: {fileID: 0}
   skeletonAnimation: {fileID: 938941437}
   idle: {fileID: 11400000, guid: f402ca410dc2c1e4e95ddbd625be774d, type: 2}
   run: {fileID: 11400000, guid: b908392cea29bf541ab19d197cba903f, type: 2}
+  _spanwPoint: {fileID: 1673643687}
   currentState: 
   score: 10
-  _spanwPoint: {fileID: 1673643687}
-  TimeAttack: 0
+  timeAttack: 0
   speedMovement: 0.5
 --- !u!50 &938941435
 Rigidbody2D:
@@ -2519,10 +2521,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 48a694c7bb48b5f4485a7f425e2924ba, type: 2}
   initialSkinName: FoxSon
-  initialFlipX: 0
+  initialFlipX: 1
   initialFlipY: 0
   separatorSlotNames: []
-  zSpacing: -0.05
+  zSpacing: -0.1
   useClipping: 1
   immutableTriangles: 0
   pmaVertexColors: 1
@@ -2607,7 +2609,7 @@ Transform:
   m_GameObject: {fileID: 938941433}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.7800002, y: -3.92, z: 0}
-  m_LocalScale: {x: -0.67317927, y: 0.6767249, z: 0.6669913}
+  m_LocalScale: {x: 0.6731793, y: 0.6767249, z: 0.6669913}
   m_Children:
   - {fileID: 1673643688}
   m_Father: {fileID: 0}
@@ -2626,7 +2628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyData: {fileID: 11400000, guid: 9a08f46cacee4f2429c89cb4ba7b9174, type: 2}
-  skeletonAnimation: {fileID: 0}
+  _skeletonAnimation: {fileID: 0}
 --- !u!1 &1147477046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,7 +3009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxTime: 2
-  button: {fileID: 137841667}
+  _button: {fileID: 137841667}
 --- !u!1 &1451412490
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,6 +3202,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pauseButton: {fileID: 1519653959}
+--- !u!1 &1536866909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1536866910}
+  - component: {fileID: 1536866912}
+  - component: {fileID: 1536866911}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1536866910
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536866909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 821273459}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -76.9, y: -22.1}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1536866911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536866909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a6b1e17c79d40ca46bea255434ec51ad, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1536866912
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536866909}
+  m_CullTransparentMesh: 0
 --- !u!1 &1566537736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,19 +3341,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 001d20d19ce06f045b995622b7cf48e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
-  EnemyShootingState: {fileID: 11400000, guid: 6ccaffb3ae3d43745a26800d5bf99ce7, type: 2}
-  WalkState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
-  StayState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
-  EnemyDathState: {fileID: 11400000, guid: 5658d4a3d0d177749a47af4e53cda87f, type: 2}
-  currentStatePattern: {fileID: 0}
+  _StartState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
+  _EnemyShootingState: {fileID: 11400000, guid: 6ccaffb3ae3d43745a26800d5bf99ce7,
+    type: 2}
+  _WalkState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
+  _StayState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
+  _EnemyDathState: {fileID: 11400000, guid: 5658d4a3d0d177749a47af4e53cda87f, type: 2}
+  _currentStatePattern: {fileID: 0}
   skeletonAnimation: {fileID: 1572192932}
   idle: {fileID: 11400000, guid: f402ca410dc2c1e4e95ddbd625be774d, type: 2}
   run: {fileID: 11400000, guid: b908392cea29bf541ab19d197cba903f, type: 2}
+  _spanwPoint: {fileID: 1470661809}
   currentState: 
   score: 10
-  _spanwPoint: {fileID: 1470661809}
-  TimeAttack: 0
+  timeAttack: 0
   speedMovement: 0.5
 --- !u!50 &1572192930
 Rigidbody2D:
@@ -3340,10 +3417,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 48a694c7bb48b5f4485a7f425e2924ba, type: 2}
   initialSkinName: LeoSon
-  initialFlipX: 0
+  initialFlipX: 1
   initialFlipY: 0
   separatorSlotNames: []
-  zSpacing: -0.05
+  zSpacing: -0.1
   useClipping: 1
   immutableTriangles: 0
   pmaVertexColors: 1
@@ -3427,7 +3504,7 @@ Transform:
   m_GameObject: {fileID: 1572192928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.05, y: -2.23, z: 0}
-  m_LocalScale: {x: -0.67317927, y: 0.6767249, z: 0.6669913}
+  m_LocalScale: {x: 0.6731793, y: 0.6767249, z: 0.6669913}
   m_Children:
   - {fileID: 1470661810}
   m_Father: {fileID: 0}
@@ -3446,7 +3523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyData: {fileID: 11400000, guid: 4a420df2c1d590a4eab3c9a35b1addf3, type: 2}
-  skeletonAnimation: {fileID: 0}
+  _skeletonAnimation: {fileID: 0}
 --- !u!1 &1589555853
 GameObject:
   m_ObjectHideFlags: 0
@@ -4353,19 +4430,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 001d20d19ce06f045b995622b7cf48e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
-  EnemyShootingState: {fileID: 11400000, guid: 6ccaffb3ae3d43745a26800d5bf99ce7, type: 2}
-  WalkState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
-  StayState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
-  EnemyDathState: {fileID: 11400000, guid: 5658d4a3d0d177749a47af4e53cda87f, type: 2}
-  currentStatePattern: {fileID: 0}
+  _StartState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
+  _EnemyShootingState: {fileID: 11400000, guid: 6ccaffb3ae3d43745a26800d5bf99ce7,
+    type: 2}
+  _WalkState: {fileID: 11400000, guid: 531fcba9915b27b4690a912042c14905, type: 2}
+  _StayState: {fileID: 11400000, guid: 55a0fd5993a2b6947949fa77c49f439b, type: 2}
+  _EnemyDathState: {fileID: 11400000, guid: 5658d4a3d0d177749a47af4e53cda87f, type: 2}
+  _currentStatePattern: {fileID: 0}
   skeletonAnimation: {fileID: 1995201142}
   idle: {fileID: 11400000, guid: f402ca410dc2c1e4e95ddbd625be774d, type: 2}
   run: {fileID: 11400000, guid: b908392cea29bf541ab19d197cba903f, type: 2}
+  _spanwPoint: {fileID: 1451412490}
   currentState: 
   score: 10
-  _spanwPoint: {fileID: 1451412490}
-  TimeAttack: 0
+  timeAttack: 0
   speedMovement: 1
 --- !u!114 &1995201142
 MonoBehaviour:
@@ -4381,10 +4459,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 48a694c7bb48b5f4485a7f425e2924ba, type: 2}
   initialSkinName: CatDaughter
-  initialFlipX: 0
+  initialFlipX: 1
   initialFlipY: 0
   separatorSlotNames: []
-  zSpacing: -0.05
+  zSpacing: -0.1
   useClipping: 1
   immutableTriangles: 0
   pmaVertexColors: 1
@@ -4470,7 +4548,7 @@ Transform:
   m_GameObject: {fileID: 1995201138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.27, y: -3.71, z: 0}
-  m_LocalScale: {x: -0.67317927, y: 0.6767249, z: 0.6669913}
+  m_LocalScale: {x: 0.6731793, y: 0.6767249, z: 0.6669913}
   m_Children:
   - {fileID: 1451412491}
   m_Father: {fileID: 0}
@@ -4489,7 +4567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyData: {fileID: 11400000, guid: cd34607449c6a4543a091830a304aab9, type: 2}
-  skeletonAnimation: {fileID: 0}
+  _skeletonAnimation: {fileID: 0}
 --- !u!1 &2133098869
 GameObject:
   m_ObjectHideFlags: 0

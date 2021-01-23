@@ -1,17 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Spine.Unity;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private EnemyData _enemyData;
-    [SerializeField] private SkeletonAnimation skeletonAnimation;
+    [SerializeField] private SkeletonAnimation _skeletonAnimation;
     public EnemyBehaviour enemyBehaviour { get; private set; }
     private void Awake()
     {
         enemyBehaviour = GetComponent<EnemyBehaviour>();
-        skeletonAnimation = GetComponent<SkeletonAnimation>();
+        _skeletonAnimation = GetComponent<SkeletonAnimation>();
         SetSkin(_enemyData.skin);
         SetTimeAttack(_enemyData.timeAttack);
     }
@@ -27,11 +25,11 @@ public class Enemy : MonoBehaviour
 
     public void SetTimeAttack(float time)
     {
-        enemyBehaviour.TimeAttack = time;
+        enemyBehaviour.timeAttack = time;
     }
 
     public void SetSkin(string skinName)
     {
-        skeletonAnimation.skeleton.SetSkin(skinName);
+        _skeletonAnimation.skeleton.SetSkin(skinName);
     }
 }

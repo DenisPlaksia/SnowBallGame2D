@@ -3,59 +3,60 @@ using System.Collections.Generic;
 using UnityEngine;
 using Spine.Unity;
 
-public class EnemyBehaviour : MonoBehaviour, IBulletCollision
+public class EnemyBehaviour : MonoBehaviour
 {
-    [SerializeField] private State StartState;
-    [SerializeField] private State EnemyShootingState;
-    [SerializeField] private State WalkState;
-    [SerializeField] private State StayState;
-    [SerializeField] private State EnemyDathState;
+    [SerializeField] private State _StartState;
+    [SerializeField] private State _EnemyShootingState;
+    [SerializeField] private State _WalkState;
+    [SerializeField] private State _StayState;
+    [SerializeField] private State _EnemyDathState;
 
     [Header("Actual state")]
-    [SerializeField] private State currentStatePattern;
+    [SerializeField] private State _currentStatePattern;
 
+    private Rigidbody2D _rigidbody2D;
+    private string _currentAnimation;
 
-    private Rigidbody2D rigidbody2D;
 
     public SkeletonAnimation skeletonAnimation;
     public AnimationReferenceAsset idle, run;
-    public string currentState;
-    private string currentAnimation;
-    public int score;
     public GameObject _spanwPoint;
-    public float TimeAttack;
+    public string currentState;
+    public int score;
+    public float timeAttack;
     public float speedMovement = 0.5f;
+
     private void Start()
     {
-        SetState(StartState);
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        SetState(_StartState);
+        _rigidbody2D = GetComponent<Rigidbody2D>();
         StartCor();
     }
 
     private void Update()
     {
-        if (!currentStatePattern.IsFinished)
+        if (!_currentStatePattern.IsFinished)
         {
-            currentStatePattern.Run();
+            _currentStatePattern.Run();
         }
     }
 
     public void SetState(State state)
     {
 
-        currentStatePattern = Instantiate(state);
-        currentStatePattern.unit = this;
-        currentStatePattern.Init();
+        _currentStatePattern = Instantiate(state);
+        _currentStatePattern.unit = this;
+        _currentStatePattern.Init();
     }
 
     public void SetAnimation(AnimationReferenceAsset animation, bool loop, float timeScale)
     {
-        if (animation.name.Equals(currentAnimation))
+        if (animation.name.Equals(_currentAnimation))
         {
             return;
         }
         skeletonAnimation.state.SetAnimation(0, animation, loop).timeScale = timeScale;
-        currentAnimation = animation.name;
+        _currentAnimation = animation.name;
     }
 
     public void SetCharackterState(string state)
@@ -74,13 +75,12 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
 
     private IEnumerator TimeToStop()
     {
-        Debug.Log("Curotina");
-        SetState(StayState);
-        rigidbody2D.simulated = true;
+        SetState(_StayState);
+        _rigidbody2D.simulated = true;
         yield return new WaitForSeconds(2f);
-        SetState(WalkState);
-        yield return new WaitForSeconds(TimeAttack);
-        SetState(EnemyShootingState);
+        SetState(_WalkState);
+        yield return new WaitForSeconds(timeAttack);
+        SetState(_EnemyShootingState);
         
         StartCoroutine(TimeToStop());
     }
@@ -88,7 +88,7 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
     public void BulletCollision()
     {
         StopAllCoroutines();
-        rigidbody2D.simulated = false;
-        SetState(EnemyDathState);
+        _rigidbody2D.simulated = false;
+        SetState(_EnemyDathState);
     }
 }

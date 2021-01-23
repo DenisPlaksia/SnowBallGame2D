@@ -3,13 +3,13 @@
 [CreateAssetMenu]
 public class EnemyWalkState : State
 {
-    Vector2 point;
+    private Vector2 _point;
     public override void Init()
     {
         FindPoint();
     }
 
-    private void FindPoint() => point = new Vector2(unit.transform.position.x, Random.Range(-2.1f ,- 4.5f));
+    private void FindPoint() => _point = new Vector2(unit.transform.position.x, Random.Range(-2.1f ,- 4.5f));
     public override void Run()
     {
         if (IsFinished)
@@ -21,10 +21,9 @@ public class EnemyWalkState : State
 
     private void MoveTo()
     {
-        Debug.Log($"MMove {point} + {unit.gameObject.name}");
         unit.SetCharackterState("Walking");
-        unit.transform.position = Vector2.MoveTowards(unit.transform.position, point, unit.speedMovement * Time.deltaTime);
-        if(unit.transform.position.y == point.y)
+        unit.transform.position = Vector2.MoveTowards(unit.transform.position, _point, unit.speedMovement * Time.deltaTime);
+        if(unit.transform.position.y == _point.y)
         {
             FindPoint();
         }
