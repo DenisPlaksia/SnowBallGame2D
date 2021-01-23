@@ -6,15 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private int _health = 3;
-    public int Score { get; set; }
     [SerializeField] private int scoreToWin;
     public event Action<int> OnHealthChange;
     public event Action<int> OnScoreChange;
-    private void Start()
-    {
 
-    }
+    private int _health = 3;
+    
+    public int Score { get; set; }
 
     public void HealthChange(int value)
     {

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyDataContainer : MonoBehaviour
 {
     public List<EnemyData> enemyDatas = new List<EnemyData>();
-    public static EnemyDataContainer Singleton { get; set; }
+    public static EnemyDataContainer Singleton { get; private set; }
 
     public void Awake()
     {

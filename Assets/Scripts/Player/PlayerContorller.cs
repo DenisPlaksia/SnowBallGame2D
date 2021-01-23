@@ -6,26 +6,27 @@ using System.Collections.Generic;
 
 public class PlayerContorller : MonoBehaviour
 {
-    [SerializeField] private VariableJoystick variableJoystick;
+    [SerializeField] private VariableJoystick _variableJoystick;
     [SerializeField] private Button _shootButton;
     [SerializeField] private GameObject _snowBall;
     [SerializeField] private GameObject _spanwPoint;
-    private ForceShowUI uI;
+    [SerializeField] private float _timeBetweenAttack = 1.5f;
+
+    private ForceShowUI _forceForBullet;
+    private string _currentAnimation;
+    private float _movement;
+    private Vector2 _direction;
+    private bool _canAttack = false;
 
     public SkeletonAnimation skeletonAnimation;
     public AnimationReferenceAsset idle, run;
     public string currentState;
-    private string currentAnimation;
-
-    private float movement;
-    private Vector2 direction;
     public float speed;
-    private bool _canAttack = false;
-    [SerializeField] private float _timeBetweenAttack = 1.5f;
+
     private void Start()
     {
-        uI = FindObjectOfType<ForceShowUI>();
-        uI.OnSnowPush += Shoot;
+        _forceForBullet = FindObjectOfType<ForceShowUI>();
+        _forceForBullet.OnSnowPush += Shoot;
         currentState = "Idle";
         SetCharackterState(currentState);
     }
@@ -51,16 +52,15 @@ public class PlayerContorller : MonoBehaviour
         }
     }
 
-    // CHANGE IF STATEMENT!!!!
     private void Movement()
     {
-        movement = variableJoystick.Direction.y;
-        direction = new Vector2(0f, movement);
-        if (movement != 0)
+        _movement = _variableJoystick.Direction.y;
+        _direction = new Vector2(0f, _movement);
+        if (_movement != 0)
         {
             if(transform.position.y <= -2.1f )
             {
-                Move(direction);
+                Move(_direction);
                 SetCharackterState("Walking");
             }
             else
@@ -71,7 +71,7 @@ public class PlayerContorller : MonoBehaviour
 
             if(transform.position.y >= -4.5f)
             {
-                Move(direction);
+                Move(_direction);
                 SetCharackterState("Walking");
             }
             else
@@ -87,22 +87,17 @@ public class PlayerContorller : MonoBehaviour
     }
 
     private void ResetAttack() => _canAttack = false;
-    private void Move(Vector2 vector)
-    {
-        transform.Translate(vector * speed * Time.deltaTime);
-    }
-
+    private void Move(Vector2 vector) => transform.Translate(vector * speed * Time.deltaTime);
 
     public void SetAnimation(AnimationReferenceAsset animation, bool loop, float timeScale)
     {
-        if(animation.name.Equals(currentAnimation))
+        if(animation.name.Equals(_currentAnimation))
         {
             return;
         }
         skeletonAnimation.state.SetAnimation(0, animation, loop).timeScale = timeScale;
-        currentAnimation = animation.name;
+        _currentAnimation = animation.name;
     }
-
 
     public void SetCharackterState(string state)
     {
