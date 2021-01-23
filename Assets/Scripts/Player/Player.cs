@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
 
     private void Win()
     {
-        Debug.Log("WIN");
+        GameController.Game.WinGame(_health);
     }
     private void Death()
     {

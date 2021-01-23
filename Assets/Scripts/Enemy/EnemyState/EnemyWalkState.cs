@@ -23,7 +23,7 @@ public class EnemyWalkState : State
     {
         Debug.Log($"MMove {point} + {unit.gameObject.name}");
         unit.SetCharackterState("Walking");
-        unit.transform.position = Vector2.MoveTowards(unit.transform.position, point, 0.5f * Time.deltaTime);
+        unit.transform.position = Vector2.MoveTowards(unit.transform.position, point, unit.speedMovement * Time.deltaTime);
         if(unit.transform.position.y == point.y)
         {
             FindPoint();

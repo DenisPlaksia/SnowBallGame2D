@@ -1,6 +1,8 @@
 ﻿using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerContorller : MonoBehaviour
 {
@@ -37,7 +39,7 @@ public class PlayerContorller : MonoBehaviour
     {
         GameObject bullet = ObjectPool.SharedInstance.GetPooledObject();
 
-        if(bullet != null && !_canAttack)
+        if (bullet != null && !_canAttack)
         {
             bullet.SetActive(true);
             bullet.GetComponent<Rigidbody2D>().isKinematic = false;

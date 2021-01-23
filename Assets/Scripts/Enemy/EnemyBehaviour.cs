@@ -15,6 +15,8 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
     [SerializeField] private State currentStatePattern;
 
 
+    private Rigidbody2D rigidbody2D;
+
     public SkeletonAnimation skeletonAnimation;
     public AnimationReferenceAsset idle, run;
     public string currentState;
@@ -22,9 +24,11 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
     public int score;
     public GameObject _spanwPoint;
     public float TimeAttack;
+    public float speedMovement = 0.5f;
     private void Start()
     {
         SetState(StartState);
+        rigidbody2D = GetComponent<Rigidbody2D>();
         StartCor();
     }
 
@@ -72,6 +76,7 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
     {
         Debug.Log("Curotina");
         SetState(StayState);
+        rigidbody2D.simulated = true;
         yield return new WaitForSeconds(2f);
         SetState(WalkState);
         yield return new WaitForSeconds(TimeAttack);
@@ -83,6 +88,7 @@ public class EnemyBehaviour : MonoBehaviour, IBulletCollision
     public void BulletCollision()
     {
         StopAllCoroutines();
+        rigidbody2D.simulated = false;
         SetState(EnemyDathState);
     }
 }
