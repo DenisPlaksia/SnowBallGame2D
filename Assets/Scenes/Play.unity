@@ -2458,7 +2458,7 @@ MonoBehaviour:
   _spanwPoint: {fileID: 1673643687}
   currentState: 
   score: 10
-  timeAttack: 0
+  timeAttack: 1
   speedMovement: 0.5
 --- !u!50 &938941435
 Rigidbody2D:
