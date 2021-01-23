@@ -2521,7 +2521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 48a694c7bb48b5f4485a7f425e2924ba, type: 2}
   initialSkinName: FoxSon
-  initialFlipX: 1
+  initialFlipX: 0
   initialFlipY: 0
   separatorSlotNames: []
   zSpacing: -0.1
@@ -2609,7 +2609,7 @@ Transform:
   m_GameObject: {fileID: 938941433}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.7800002, y: -3.92, z: 0}
-  m_LocalScale: {x: 0.6731793, y: 0.6767249, z: 0.6669913}
+  m_LocalScale: {x: -0.6731793, y: 0.6767249, z: 0.6669913}
   m_Children:
   - {fileID: 1673643688}
   m_Father: {fileID: 0}
@@ -3417,7 +3417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 48a694c7bb48b5f4485a7f425e2924ba, type: 2}
   initialSkinName: LeoSon
-  initialFlipX: 1
+  initialFlipX: 0
   initialFlipY: 0
   separatorSlotNames: []
   zSpacing: -0.1
@@ -3504,7 +3504,7 @@ Transform:
   m_GameObject: {fileID: 1572192928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.05, y: -2.23, z: 0}
-  m_LocalScale: {x: 0.6731793, y: 0.6767249, z: 0.6669913}
+  m_LocalScale: {x: -0.6731793, y: 0.6767249, z: 0.6669913}
   m_Children:
   - {fileID: 1470661810}
   m_Father: {fileID: 0}
@@ -4459,7 +4459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 48a694c7bb48b5f4485a7f425e2924ba, type: 2}
   initialSkinName: CatDaughter
-  initialFlipX: 1
+  initialFlipX: 0
   initialFlipY: 0
   separatorSlotNames: []
   zSpacing: -0.1
@@ -4548,7 +4548,7 @@ Transform:
   m_GameObject: {fileID: 1995201138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.27, y: -3.71, z: 0}
-  m_LocalScale: {x: 0.6731793, y: 0.6767249, z: 0.6669913}
+  m_LocalScale: {x: -0.6731793, y: 0.6767249, z: 0.6669913}
   m_Children:
   - {fileID: 1451412491}
   m_Father: {fileID: 0}
