@@ -5,28 +5,28 @@ public class ForceShowUI : MonoBehaviour
 {
     private Image _forceImage;
     public float maxTime = 3f;
-    private float _timeLeft = 0f;
-    [SerializeField] private Button _button;
+    private float timeLeft = 0f;
+    [SerializeField] private Button button;
 
 
     public event Action<float> OnSnowPush;
     private void Start()
     {
         _forceImage = GetComponent<Image>();
-        _button.onClick.AddListener(() => PressButton(_timeLeft));
+        button.onClick.AddListener(() => PressButton(timeLeft));
     }
 
     private void Update()
     {
-        if (_timeLeft < maxTime)
+        if (timeLeft < maxTime)
         {
-            _timeLeft += Time.deltaTime;
-            _forceImage.fillAmount = _timeLeft / maxTime;
+            timeLeft += Time.deltaTime;
+            _forceImage.fillAmount = timeLeft / maxTime;
         }
-        else if (_timeLeft >= maxTime)
+        else if (timeLeft >= maxTime)
         {
-            _timeLeft = 0f;
-            _forceImage.fillAmount = _timeLeft;
+            timeLeft = 0f;
+            _forceImage.fillAmount = timeLeft;
         }
     }
 

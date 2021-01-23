@@ -1,16 +1,18 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 [CreateAssetMenu]
 public class EnemyDeathState : State
 {
-    private Vector2 _point;
-    private Vector2 _lastPosition;
-    private bool _check = true;
+    Vector2 point;
+    Vector2 lastPosition;
+    bool check = true;
     public State EnemyWalkState;
     public override void Init()
     {
-        _lastPosition = unit.transform.position;
-        _point = new Vector2(15f, unit.transform.position.y);
+        lastPosition = unit.transform.position;
+        point = new Vector2(15f, unit.transform.position.y);
         Flip();
     }
     public override void Run()
@@ -20,7 +22,7 @@ public class EnemyDeathState : State
             return;
         }
 
-        if(_check)
+        if(check)
         {
             MoveTo();
         }
@@ -32,12 +34,14 @@ public class EnemyDeathState : State
 
     private void MoveTo()
     {
+        Debug.Log($"MMove {point} + {unit.gameObject.name}");
         unit.SetCharackterState("Walking");
-        unit.transform.position = Vector2.MoveTowards(unit.transform.position, _point, 2f * Time.deltaTime);
+        unit.transform.position = Vector2.MoveTowards(unit.transform.position, point, 2f * Time.deltaTime);
 
-        if (unit.transform.position.x == _point.x)
+        if (unit.transform.position.x == point.x)
         {
-            _check = false;
+
+            check = false;
             Flip();
             unit.GetComponent<Enemy>().ChnageEnemyData(EnemyDataContainer.Singleton.GetEnemyData(Random.Range(0, EnemyDataContainer.Singleton.enemyDatas.Count)));
         }
@@ -46,8 +50,8 @@ public class EnemyDeathState : State
     public void RemoveToBack()
     {
         unit.SetCharackterState("Walking");
-        unit.transform.position = Vector2.MoveTowards(unit.transform.position, _lastPosition, 2f * Time.deltaTime);
-        if (unit.transform.position.x == _lastPosition.x)
+        unit.transform.position = Vector2.MoveTowards(unit.transform.position, lastPosition, 2f * Time.deltaTime);
+        if (unit.transform.position.x == lastPosition.x)
         {
 
             Stop();
