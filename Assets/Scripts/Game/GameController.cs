@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject _winPanel;
     [SerializeField] private GameObject _losePanel;
     [SerializeField] private GameObject _pauseGame;
+    [SerializeField] private GameObject _interfacePanel;
     [SerializeField] private List<GameObject> _stars = new List<GameObject>();
     public static GameController Game;
 
@@ -28,6 +29,7 @@ public class GameController : MonoBehaviour
     public void WinGame(int value)
     {
         Time.timeScale = 0;
+        _interfacePanel.SetActive(false);
         _stars[value].SetActive(true);
         _winPanel.SetActive(true);
     }
@@ -35,6 +37,7 @@ public class GameController : MonoBehaviour
     public void LoseGame()
     {
         Time.timeScale = 0;
+        _interfacePanel.SetActive(false);
         _losePanel.SetActive(true);
     }
 
@@ -42,11 +45,13 @@ public class GameController : MonoBehaviour
     {
         Time.timeScale = 0f;
         _pauseGame.SetActive(true);
+        _interfacePanel.SetActive(false);
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1;
+        _interfacePanel.SetActive(true);
         _pauseGame.SetActive(false);
     }
 }

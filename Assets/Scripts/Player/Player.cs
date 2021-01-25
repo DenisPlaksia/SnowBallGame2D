@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
     }
     private void Death()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameController.Game.LoseGame();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

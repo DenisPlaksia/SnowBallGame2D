@@ -43,7 +43,6 @@ public class EnemyBehaviour : MonoBehaviour
 
     public void SetState(State state)
     {
-
         _currentStatePattern = Instantiate(state);
         _currentStatePattern.unit = this;
         _currentStatePattern.Init();
