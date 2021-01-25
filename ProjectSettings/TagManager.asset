@@ -41,9 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Enemy
-    uniqueID: 689783941
-    locked: 0
   - name: Snow
     uniqueID: 3551181575
     locked: 0
@@ -52,4 +49,7 @@ TagManager:
     locked: 0
   - name: SnowBall
     uniqueID: 3208418041
+    locked: 0
+  - name: Enemy
+    uniqueID: 689783941
     locked: 0

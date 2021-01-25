@@ -30,6 +30,6 @@ public class Enemy : MonoBehaviour
 
     public void SetSkin(string skinName)
     {
-        _skeletonAnimation.skeleton.SetSkin(skinName);
+        _skeletonAnimation.Skeleton.SetSkin(skinName);
     }
 }
