@@ -39,7 +39,7 @@ public class EnemyDeathState : State
         {
             _check = false;
             Flip();
-            unit.GetComponent<Enemy>().ChnageEnemyData(EnemyDataContainer.Singleton.GetEnemyData(Random.Range(0, EnemyDataContainer.Singleton.enemyDatas.Count + 1)));
+            unit.GetComponent<Enemy>().ChnageEnemyData(EnemyDataContainer.Singleton.GetEnemyData(Random.Range(0, EnemyDataContainer.Singleton.enemyDatas.Count)));
         }
     }
 
