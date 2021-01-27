@@ -10,6 +10,8 @@ public class EnemyDeathState : State
     public override void Init()
     {
         _lastPosition = unit.transform.position;
+
+        //15f position x where should go enemy after "death";
         _point = new Vector2(15f, unit.transform.position.y);
         Flip();
     }

@@ -9,6 +9,8 @@ public class EnemyWalkState : State
         FindPoint();
     }
 
+
+    // -2.1f min and -4.5f max position y for enemy movement
     private void FindPoint() => _point = new Vector2(unit.transform.position.x, Random.Range(-2.1f ,- 4.5f));
     public override void Run()
     {
