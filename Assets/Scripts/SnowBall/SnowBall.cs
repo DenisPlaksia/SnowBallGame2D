@@ -9,8 +9,9 @@ public class SnowBall : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        var collisionObject = collision.gameObject.GetComponent<Enemy>();
-        if (collisionObject != null && player != null)
+        var collisionObjectEnemy = collision.gameObject.GetComponent<Enemy>();
+        var collisionObjectPlayer = collision.gameObject.GetComponent<Player>();
+        if (collisionObjectEnemy != null && player != null)
         {
             TextMeshProUGUI text = FlyTextPool.SharedInstance.GetPooledObject();
             if(text != null)
@@ -18,12 +19,13 @@ public class SnowBall : MonoBehaviour
                 text.gameObject.SetActive(true);
                 text.GetComponent<FlyText>().PlayAnimation();
             }
-            player.AddScore(collisionObject.GetScore());
-            collisionObject.enemyBehaviour.BulletCollision();
+            player.AddScore(collisionObjectEnemy.GetScore());
+            collisionObjectEnemy.enemyBehaviour.BulletCollision();
             gameObject.SetActive(false);
         }
-        else
+        else if(collisionObjectPlayer != null)
         {
+            collisionObjectPlayer.HealthChange(1);
             gameObject.SetActive(false);
         }
     }
