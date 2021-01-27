@@ -11,22 +11,31 @@ public class SnowBall : MonoBehaviour
     {
         var collisionObjectEnemy = collision.gameObject.GetComponent<Enemy>();
         var collisionObjectPlayer = collision.gameObject.GetComponent<Player>();
+
+
         if (collisionObjectEnemy != null && player != null)
         {
-            TextMeshProUGUI text = FlyTextPool.SharedInstance.GetPooledObject();
-            if(text != null)
+            var text = FlyTextPool.SharedInstance.GetPooledObject();
+            if (text != null)
             {
                 text.gameObject.SetActive(true);
                 text.GetComponent<FlyText>().PlayAnimation();
             }
-            player.AddScore(collisionObjectEnemy.GetScore());
+            player.Score = collisionObjectEnemy.GetScore();
             collisionObjectEnemy.enemyBehaviour.BulletCollision();
-            gameObject.SetActive(false);
+            OffBall();
         }
-        else if(collisionObjectPlayer != null)
+        else if (collisionObjectPlayer != null)
         {
+            // if enemy hit player we remove 1 point of health
             collisionObjectPlayer.HealthChange(1);
-            gameObject.SetActive(false);
+            OffBall();
+        }
+        else
+        {
+            OffBall();
         }
     }
+
+    private void OffBall() => gameObject.SetActive(false);
 }

@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,8 +8,24 @@ public class Player : MonoBehaviour
     public event Action<int> OnScoreChange;
 
     private int _health = 3;
-    
-    public int Score { get; set; }
+
+    private int _score = 0;
+    public int Score
+    {
+        get => _score;
+        set
+        {
+            if(value > 0)
+            {
+                _score += value;
+                OnScoreChange?.Invoke(_score);
+                if(_score >= _scoreToWin)
+                {
+                    Win();
+                }
+            }
+        }
+    }
 
     public void HealthChange(int value)
     {
@@ -23,32 +36,8 @@ public class Player : MonoBehaviour
             Death();
         }
     }
-    public void AddScore(int value)
-    {
-        Score += value;
-        OnScoreChange?.Invoke(Score);
-        if(Score >= _scoreToWin)
-        {
-            Win();
-        }
-    }
 
-    private void Win()
-    {
-        GameController.Game.WinGame(_health);
-    }
-    private void Death()
-    {
-        GameController.Game.LoseGame();
-    }
+    private void Win() => GameController.Game.WinGame(_health);
+    private void Death() => GameController.Game.LoseGame();
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        var collisionObject = collision.gameObject.GetComponent<SnowBall>();
-        if (collisionObject != null)
-        {
-            collisionObject.gameObject.SetActive(false);
-            HealthChange(1);
-        }
-    }
 }

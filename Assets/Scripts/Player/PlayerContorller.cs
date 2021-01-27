@@ -1,8 +1,6 @@
 ﻿using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
-using System.Collections.Generic;
 
 public class PlayerContorller : MonoBehaviour
 {
@@ -58,7 +56,8 @@ public class PlayerContorller : MonoBehaviour
         _direction = new Vector2(0f, _movement);
         if (_movement != 0)
         {
-            if(transform.position.y <= -2.1f )
+            // -2.1f its up border for player
+            if (transform.position.y <= -2.1f )
             {
                 Move(_direction);
                 SetCharackterState("Walking");
@@ -69,7 +68,8 @@ public class PlayerContorller : MonoBehaviour
                 transform.position = newPosition;
             }
 
-            if(transform.position.y >= -4.5f)
+            // -4.5f its up border for player
+            if (transform.position.y >= -4.5f)
             {
                 Move(_direction);
                 SetCharackterState("Walking");
