@@ -12,7 +12,12 @@ public class SnowBall : MonoBehaviour
         var collisionObject = collision.gameObject.GetComponent<Enemy>();
         if (collisionObject != null && player != null)
         {
-
+            TextMeshProUGUI text = FlyTextPool.SharedInstance.GetPooledObject();
+            if(text != null)
+            {
+                text.gameObject.SetActive(true);
+                text.GetComponent<FlyText>().PlayAnimation();
+            }
             player.AddScore(collisionObject.GetScore());
             collisionObject.enemyBehaviour.BulletCollision();
             gameObject.SetActive(false);
