@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private int scoreToWin;
+    [SerializeField] private int _scoreToWin;
     public event Action<int> OnHealthChange;
     public event Action<int> OnScoreChange;
 
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     {
         Score += value;
         OnScoreChange?.Invoke(Score);
-        if(Score >= scoreToWin)
+        if(Score >= _scoreToWin)
         {
             Win();
         }

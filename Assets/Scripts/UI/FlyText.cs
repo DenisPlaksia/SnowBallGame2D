@@ -7,7 +7,7 @@ public class FlyText : MonoBehaviour
 {
     private TextMeshProUGUI _textFly;
     private Animation _animation;
-
+    private const string FlyAnimationName = "FlyText";
     private List<string> _message = new List<string>()
     {
         "Good",
@@ -32,7 +32,7 @@ public class FlyText : MonoBehaviour
 
     public void PlayAnimation()
     {
-        _animation.Play("FlyText");
+        _animation.Play(FlyAnimationName);
         TextSet(_message[Random.Range(0, _message.Count)]);
     }
 
